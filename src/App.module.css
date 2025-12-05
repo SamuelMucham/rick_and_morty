@@ -19,6 +19,22 @@
     color: aliceblue;
     width: 100%;
 }
+.infobtn{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: cadetblue;
+    border: none;
+    border-radius: 10px;
+    transition: all 200ms ease-in-out;
+}
+.infobtn:hover{
+    cursor: pointer;
+    opacity: 1;
+    box-shadow: 0px 3px 20px #ffffff;
+
+}
 
 @media(width >= 768px){
     .tittle{
