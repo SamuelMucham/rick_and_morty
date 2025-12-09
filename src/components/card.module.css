@@ -1,41 +1,52 @@
-.backgroud{
-    background-color: rgb(37, 2, 70);
-    color: #ffffff;
-    padding: 10px;
-    border-radius: 10px;
+.cardsStyle {
+    background: rgba(254, 254, 254, 0.277);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgb(0, 0, 0);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 3px solid rgba(255, 255, 255, 0.612);
+    padding: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    gap: 2vh;
-    width: 350px;
-    height: 500px;
-    transition: all 200ms ease-in-out;
+    min-width: 320px;
+    max-width: 320px;
+    width: 320px;
+    margin-bottom: 10px;
+    transition: all 300ms ease-in-out;
+
 }
 
-.cardImage{
+.imgstyle {
+    width: 240px;
+    height: auto;
     border-radius: 999px;
-    transition: all 200ms ease-in-out;
-    filter: grayscale(1);
-    width: 90%;
+    transition: all 300ms ease-in-out;
 }
 
-.backgroud:hover .cardImage{
-    border-radius: 10px;
-    filter: grayscale(0);
+.cardsStyle:hover .imgstyle {
+    border-radius: 22.5px;
+    box-shadow: 0 4px 30px rgb(0, 0, 0);
 }
-;.backgroud:hover{
-    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;}
 
-.cardTittle{
-    font-size: 26px;
-    letter-spacing: 2px;
-    font-weight: 900;
-    text-shadow: 0px 3px 20px #f300fb;  
-}
-.carText{
+.title {
+    font-size: 1.2rem;
+    color: #ffffff;
+    text-shadow: 0px 3px 10px #000000;
     width: 100%;
     text-align: center;
-    color: #f300fb;
-    font-size: 22px;
+}
+
+.cardsStyle:hover .title {
+    color: #80ff00;
+    text-shadow: 0px 3px 10px #234204;
+}
+
+.cardsStyle:hover {
+    background: rgba(255, 255, 255, 0.588);
+    border-radius: 40px;
+    box-shadow: 0 4px 30px rgb(140, 255, 0);
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 3px solid rgba(255, 255, 255, 0.612);
 }
